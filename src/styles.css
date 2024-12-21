@@ -5,7 +5,19 @@
 
 .grid {
   display: grid;
+  grid-gap: 64px; 
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-3-colums-footer {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.closeup {
+  width: 400px;
 }
 header {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url(../images/bandpicture.jpg);
@@ -57,6 +69,30 @@ header a {
   display: inline-block;
 }
 
+main h5 {
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  opacity: 0.3;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/covers.jpg);
@@ -90,11 +126,13 @@ footer li {
 footer a {
   color:white;
   opacity: 0.7;
+  font-size: 16px;
 }
 
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 @media (max-width: 800px) {
@@ -112,5 +150,14 @@ section {
 
   header p {
     font-size: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px
   }
 }
