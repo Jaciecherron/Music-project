@@ -1,3 +1,15 @@
+.container {
+  max-width: 1400px;
+  margin: 0,auto;
+}
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../images/bandpicture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  text-align: center;
+}
 h1 {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
