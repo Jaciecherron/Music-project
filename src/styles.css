@@ -47,6 +47,14 @@
   display: block;
 }
 
+.bones {
+  max-width: 150px;
+}
+
+.radioactive {
+  max-width: 150px;
+}
+
 .btn {
   display: block;
   color: white;
