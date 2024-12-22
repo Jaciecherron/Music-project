@@ -24,6 +24,42 @@
   text-align: center;
   color: white;
 }
+
+.grid-3-colums {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-footer {
+  padding: 0 20px 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.believer {
+  max-width: 150px;
+  display: block;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: black;
+  text-decoration: none;
+}
 header {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url(../images/bandpicture.jpg);
   background-repeat: no-repeat;
