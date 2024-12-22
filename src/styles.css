@@ -19,6 +19,11 @@
 .closeup {
   width: 400px;
 }
+
+.text-center {
+  text-align: center;
+  color: white;
+}
 header {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url(../images/bandpicture.jpg);
   background-repeat: no-repeat;
@@ -133,6 +138,13 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+section.secondary {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/smokeandmirrors.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
 }
 
 @media (max-width: 800px) {
