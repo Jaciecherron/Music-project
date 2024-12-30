@@ -42,18 +42,10 @@
   padding: 30px;
 }
 
-.believer {
-  max-width: 150px;
-  display: block;
+.embed {
+  width: 100%;
 }
 
-.bones {
-  max-width: 150px;
-}
-
-.radioactive {
-  max-width: 150px;
-}
 
 .btn {
   display: block;
